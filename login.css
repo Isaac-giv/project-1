@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+}
+
+.loginform{
+    border: 1px solid black;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginform .button:hover{
+    cursor: pointer;
+    color: azure ;
+}
